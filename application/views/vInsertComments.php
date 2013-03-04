@@ -1,9 +1,0 @@
-<html>
-<head>
-<title><?=$titulo?></title>
-</head>
-<body>
-<h1><?=$Encabezado?></h1>
-test
-</body>
-</html>
