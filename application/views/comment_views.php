@@ -3,8 +3,8 @@
 <title><?=$titulo?></title>
 </head>
 <body>
+<? include('menu.php');?>
 <h1><?=$Encabezado?></h1>
-<?=anchor('admin/', 'admin')?>
 <ol>
 <? if($query->num_rows() > 0): ?>
 <?

@@ -3,7 +3,7 @@
 <title><?=$titulo?></title>
 </head>
 <body>
-<?=anchor('admin/', 'Ir a comentarios Activos...');?>
+<? include('menu.php');?>
 <h1><?=$Encabezado?></h1>
 <ol>
 <?
